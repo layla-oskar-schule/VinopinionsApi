@@ -58,6 +58,7 @@ export class WinesService {
       relations: {
         winemaker: true,
         stores: true,
+        ratings: true,
       },
     });
   }
